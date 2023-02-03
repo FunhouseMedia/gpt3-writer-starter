@@ -8,7 +8,7 @@ const openai = new OpenAIApi(configuration);
 
 const basePromptPrefix =
 `
-Give me one lesson plan that would last 60 minutes.
+Give me one lesson plan that is age appropriate pedagogically.
 
 At the top of the out put, include ABBIE AUTOMATED LESSON PLAN OUTPUT (brought to you by Kirl Networks)
 
