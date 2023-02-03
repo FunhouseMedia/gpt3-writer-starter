@@ -65,7 +65,7 @@ const onUserChangedText = (event) => {
   </div>
 
           <div className="header-subtitle">
-            <h2>Please wait 10-30 seconds for our magic helpers to do their work. Please do not hit refresh or the "Generate" button more than once. Your lesson plan text will appear below shortly.</h2>
+            <h2>Please wait 30-60 seconds for our magic helpers to do their work. Please do not hit refresh or the "Generate" button more than once. Your lesson plan text will appear below shortly.</h2>
           </div>
 
   {/* New code I added here */}
@@ -83,15 +83,15 @@ const onUserChangedText = (event) => {
 )}
 </div>
 
-      <div className="badge-container grow">
+<div className="badge-container grow">
         <a
-          href="https://buildspace.so/builds/ai-writer"
+          href="https://www.kirlnetworks.com/"
           target="_blank"
           rel="noreferrer"
         >
           <div className="badge">
-            <Image src={buildspaceLogo} alt="buildspace logo" />
-            <p>build with buildspace</p>
+            <Image src={kirlLogo} alt="kirl logo" />
+            <p>Brought to you by Kirl Networks</p>
           </div>
         </a>
       </div>
